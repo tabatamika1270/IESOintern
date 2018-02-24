@@ -275,7 +275,7 @@ if($_POST['project']=="udon")
 <!-input要素にhiddenでブラウザに投稿番号が表示されない(編集番号に0が指定されたとき、if文で使えないかも)->
 <input name="edit" type="hidden" value="<?php echo $edit;?>"/>
 
-<!-なので、$projectを目印にして編集2のときに確実に判定できるようにする＞
+<!-なので、$projectを目印にして編集2のときに確実に判定できるようにする->
 <!-input要素にhiddenでブラウザに投稿番号が表示されない->
 <input name="project" type="hidden" value="<?php echo $project;?>"/>
 
